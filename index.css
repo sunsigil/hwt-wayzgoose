@@ -1,13 +1,39 @@
+@font-face
+{
+	font-family: "HWT Artz";
+	src: url("rsrc/HWT-Artz.otf");
+}
+@font-face
+{
+	font-family: "HWT Geometric";
+	src: url("rsrc/HWT-Geometric-Light.otf");
+}
+@font-face
+{
+	font-family: "HWT Republic Gothic";
+	src: url("rsrc/HWT-Republic-Gothic.otf");
+}
+@font-face
+{
+	font-family: "HWT Konop";
+	src: url("rsrc/HWT-Konop-6-line.otf");
+}
+
 body
 {
 	background-color: white;
 	color: black;
 
-	font-family: helvetica;
+	font-family: "HWT Republic Gothic";
 	font-size: 12pt;
 
 	text-align: left;
-	margin: 0.25in;
+	margin: 2in;
+}
+
+h1,h2,h3,h4
+{
+	font-family: "HWT Artz";
 }
 
 h1
@@ -24,57 +50,28 @@ h2
 
 h3
 {
-	font-size: 20pt;
+	font-size: 18pt;
 	font-weight: bold;
 }
 
 h4
 {
-	font-size: 18pt;
-	font-weight: bold;
-}
-
-title
-{
-	font-size: 16pt;
+	font-size: 14pt;
 	font-weight: bold;
 }
 
 a
 {
 	font-weight: bold;
-	color: red; 
 }
 
-/*
-div.gallery
+.nav
 {
-	display: inline-block;
+	font-family: "HWT Artz";
+	font-size: 18pt;
 
-	padding: 5px;
-	margin: 5px;
+	color: black;
+	text-decoration: none;
 	
-	border: 2px solid red;
+	padding: 5px;
 }
-
-
-div.gallery img
-{
-	width: 512px;
-	height: auto;
-}
-
-div.gallery img:hover
-{
-	width: 516px;
-}
-
-div.gallery img.thumbnail
-{
-	max-width: 256px;
-	height: 128px;
-	width: auto;
-}
-
-div.gallery img.thumbnail:hover {}
-*/
